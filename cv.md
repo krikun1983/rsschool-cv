@@ -28,6 +28,30 @@ Actively exploring the possibilities of HTML5, CSS3, JS (ES6). My dream is to ge
 
 ### **Code Example:**
 
+```
+//JS - Implement and export the isHappy function by default,
+which checks if the number is happy (the number is always a string).
+The function should return true if the ticket is lucky, or false if not.
+
+const isHappy = (str) => {
+  if (str.length % 2 === 0) {
+    let strLeft = 0;
+    for (let i = 0; i < str.length / 2; i += 1) {
+      strLeft += Number(str[i]);
+    }
+    let strRight = 0;
+    for (let i = str.length - 1; i > (str.length - 1) / 2; i -= 1) {
+      strRight += Number(str[i]);
+    }
+    return strLeft === strRight;
+  }
+  return false;
+};
+export default isHappy;
+```
+
+---
+
 ### **Experience:**
 
 - [Course "Frontend JavaScript" - Xexlet](https://ru.hexlet.io/u/krikun);
