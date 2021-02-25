@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume of Stanislav Akhmadeev</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="headerBody">
+      <img src="images/myPhoto.jpg" alt="myPhoto" width="200" height="250" title="myPhoto">
+      <div class="name">
+        <h1>Stanislav Akhmadeev</h1>
+      </div>
+      <nav>
+        <ul class="contactList">
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#myGoal">My goal</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#codeExample">Code Example</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#englishLevel">English level</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="contacts">
+      <h3>Contacts:</h3>
+      <address class="contactList">
+        <ul>
+          <li>&#9742; Mobile: <a href="tel:+79372253608">+79372253608;</a></li>
+          <li>&#9993; E-mail: <a href="mailto:akhmadeevst@gmail.com">akhmadeevst@gmail.com</a>.</li>
+        </ul>
+      </address>
+    </section>
+    <section id="myGoal">
+      <h3>My goal:</h3>
+      <p>I have been working in the field of printing products all my life: design and layout of anniversary books, magazines,
+      newspapers, business cards, booklets, calendars.</p>
+      <p>Actively exploring the possibilities of HTML5, CSS3, JS (ES6). My dream is to get a job in a large company, where there
+      is an opportunity to realize myself as a programmer.</p>
+    </section>
+    <section class="skills" id="skills" >
+      <h3>Skills:</h3>
+      <ul>
+        <li>HTML/HTML5;</li>
+        <li>CSS/CSS3;</li>
+        <li>Basic skills in JS (ES6);</li>
+        <li>CMS Joomla;</li>
+        <li>Adobe Photoshop.</li>
+        <li>Git</li>
+      </ul>
+    </section>
+    <section id="codeExample">
+      <h3>Code Example:</h3>
+      <details>
+        <summary>My code</summary>
+        <pre>
+          <code>
+            /*JS - Implement and export the isHappy function by default,
+            which checks if the number is happy (the number is always a string).
+            The function should return true if the ticket is lucky, or false if not.*/
+
+            const isHappy = (str) => {
+              if (str.length % 2 === 0) {
+                let strLeft = 0;
+                for (let i = 0; i &lt; str.length / 2; i += 1) {
+                  strLeft += Number(str[i]);
+                  }
+                let strRight = 0;
+                for (let i = str.length - 1; i > (str.length - 1) / 2; i -= 1) {
+                  strRight += Number(str[i]);
+                }
+                return strLeft === strRight;
+              }
+              return false;
+            };
+            export default isHappy;
+          </code>
+        </pre>
+      </details>
+    </section>
+    <section class="experience" id="experience">
+      <h3>Experience:</h3>
+      <ul>
+        <li><a href="https://ru.hexlet.io/u/krikun" target="_blank">Course "Frontend JavaScript" - Xexlet</a></li>
+        <li><a href="https://htmlacademy.ru/profile/id1150903/progress" target="_blank">Course HTMLacademy</a></li>
+        <li><a href="https://www.codecademy.com/profiles/board9969411768" target="_blank">Course Codecademy</a></li>
+        <li><a href="https://github.com/krikun1983/Tasks-JS" target="_blank">github_tasks-js</a></li>
+        <li>Here are two test projects on CMS Joomla:
+          <ul>
+            <li><a href="http://xn--80aagyaafge2affsmfeji0h.xn--p1ai/" target="_blank">саратовскийисточник.рф</a></li>
+            <li><a href="http://izborvolga.ru/index.php" target="_blank">izborvolga.ru</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="education">
+      <h3>Education:</h3>
+      <p>Institute of Business and Business Administration, specialty manager.</p>
+    </section>
+    <section id="englishLevel">
+      <h3>English level:</h3>
+      <p>I have been studying English daily for 6 months. For training I use duolingo and ESCC. At the moment, my level is A1+.</p>
+    </section>
+  </main>
+</body>
+</html>
