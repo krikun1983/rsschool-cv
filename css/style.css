@@ -1,5 +1,4 @@
 * {
-  outline: none;
   box-sizing: border-box;
 }
 
@@ -18,8 +17,7 @@ body {
 
 header {
   margin-top: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0;
   color: #c3c3c3;
   background-color: #2b366b;
 }
@@ -41,15 +39,12 @@ header {
 }
 
 img {
+  float: left;
+  margin-right: 25px;
   max-width: 100%;
   height: auto;
   border: 2px solid #c6d6fc;
   border-radius: 10px;
-}
-
-.myPhoto {
-  float: left;
-  margin-right: 25px;
 }
 
 nav {
@@ -74,7 +69,7 @@ nav a:hover {
 }
 
 nav a:active {
-  color: rgba(195, 195, 195, 0.3);
+  color: rgba(195,195,195,.3);
 }
 
 h1 {
@@ -92,7 +87,7 @@ main {
 }
 
 h3 {
-  margin: 20px 10px 20px;
+  margin: 20px 10px;
   padding-left: 10px;
   font-size: 26px;
   text-transform: uppercase;
@@ -111,8 +106,8 @@ address ul {
 }
 
 address a {
-  text-decoration: none;
   color: #c5d6fd;
+  text-decoration: none;
 }
 
 address a:hover {
@@ -143,9 +138,9 @@ address a:hover {
 }
 
 details {
+  margin-left: 25px;
   width: 600px;
   border-radius: 5px;
-  margin-left: 25px;
   cursor: pointer;
 }
 
@@ -155,5 +150,5 @@ summary {
   border-radius: 5px;
   cursor: pointer;
   color: #c5d6fd;
-  background: rgba(62, 83, 138, 0.1);
+  background: rgba(62,83,138,.1);
 }

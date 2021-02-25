@@ -11,9 +11,7 @@
 <body>
   <header>
     <div class="headerBody">
-      <div class="myPhoto">
-        <img src="images/myPhoto.jpg" alt="myPhoto" width="200" height="250" title="myPhoto">
-      </div>
+      <img src="images/myPhoto.jpg" alt="myPhoto" width="200" height="250" title="myPhoto">
       <div class="name">
         <h1>Stanislav Akhmadeev</h1>
       </div>
@@ -34,12 +32,10 @@
     <section id="contacts">
       <h3>Contacts:</h3>
       <address class="contactList">
-        <div>
-          <ul>
-            <li>&#9742; Mobile: <a href="tel:+79372253608">+79372253608;</a></li>
-            <li>&#9993; E-mail: <a href="mailto:akhmadeevst@gmail.com">akhmadeevst@gmail.com</a>.</li>
-          </ul>
-        </div>
+        <ul>
+          <li>&#9742; Mobile: <a href="tel:+79372253608">+79372253608;</a></li>
+          <li>&#9993; E-mail: <a href="mailto:akhmadeevst@gmail.com">akhmadeevst@gmail.com</a>.</li>
+        </ul>
       </address>
     </section>
     <section id="myGoal">
@@ -49,7 +45,7 @@
       <p>Actively exploring the possibilities of HTML5, CSS3, JS (ES6). My dream is to get a job in a large company, where there
       is an opportunity to realize myself as a programmer.</p>
     </section>
-    <section id="skills" class="skills">
+    <section class="skills" id="skills" >
       <h3>Skills:</h3>
       <ul>
         <li>HTML/HTML5;</li>
@@ -73,7 +69,7 @@
             const isHappy = (str) => {
               if (str.length % 2 === 0) {
                 let strLeft = 0;
-                for (let i = 0; i < str.length / 2; i += 1) {
+                for (let i = 0; i &lt; str.length / 2; i += 1) {
                   strLeft += Number(str[i]);
                   }
                 let strRight = 0;
@@ -89,7 +85,7 @@
         </pre>
       </details>
     </section>
-    <section id="experience" class="experience">
+    <section class="experience" id="experience">
       <h3>Experience:</h3>
       <ul>
         <li><a href="https://ru.hexlet.io/u/krikun">Course "Frontend JavaScript" - Xexlet</a></li>
