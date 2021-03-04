@@ -1,0 +1,179 @@
+* { box-sizing: border-box; }
+
+html { background-color: #1f2430; }
+
+body {
+  margin: 15px auto;
+  max-width: 1024px;
+  min-width: 400px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #2b366b;
+}
+
+body > header {
+  margin-top: 20px;
+  padding: 15px 0;
+}
+
+.header-page {
+  margin: auto;
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 97%;
+  min-height: 280px;
+  background-color: #7991ca;
+  border-radius: 10px;
+}
+
+.header-image {
+  float: left;
+  margin-right: 25px;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #c6d6fc;
+  border-radius: 10px;
+}
+
+.header-name {
+  padding: 5px 0 10px;
+  border-bottom: 2px solid #c6d6fc;
+}
+
+h1 {
+  font-size: 33px;
+  color: #1f2430;
+  text-transform: uppercase;
+}
+
+nav { margin-top: 15px; }
+
+nav li {
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #c5d6fd;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #2b366b;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav a:active { color: rgba(195,195,195,.3); }
+
+main {
+  margin: 0 auto;
+  padding: 20px;
+  width: 97%;
+  background-color: #7991ca;
+  border-radius: 10px;
+}
+
+h3 {
+  margin: 20px 10px;
+  padding-left: 10px;
+  font-size: 26px;
+  text-transform: uppercase;
+  border-left: 6px solid #2d366a;
+}
+
+address > .contact-list {
+  margin-left: 25px;
+  font-style: normal;
+}
+
+address > .contact-list a {
+  color: #c5d6fd;
+  text-decoration: none;
+}
+
+address > .contact-list a:hover {
+  font-weight: bold;
+  color: #2b366b;
+  text-decoration: underline;
+}
+
+section p {
+  margin: 0 25px;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.skills ul {
+  margin-left: 45px;
+  list-style-type: square;
+}
+
+details {
+  margin-left: 25px;
+  width: 600px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+summary {
+  margin: -1%;
+  padding: 4px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #c5d6fd;
+  background: rgba(62,83,138,.1);
+}
+
+.experience ul {
+  margin-left: 45px;
+  list-style-type: square;
+}
+
+.experience a {
+  color: #c5d6fd;
+  text-decoration: none;
+}
+
+.experience a:hover {
+  font-weight: bold;
+  color: #2b366b;
+  text-decoration: underline;
+}
+
+body > footer {
+  padding: 15px 0;
+  color: #c3c3c3;
+  background-color: #2b366b;
+}
+
+.footer-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding: 15px;
+  width: 97%;
+  background-color: #7991ca;
+  border-radius: 10px;
+}
+
+.footer-year {
+  color: #2b366b;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.footer-github {
+  color: #2b366b;
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+a:hover.footer-github  {
+  font-weight: bold;
+  color: #c5d6fd;
+  text-decoration: underline;
+}
+
+a:hover.footer-linkrss { opacity: .5; }
