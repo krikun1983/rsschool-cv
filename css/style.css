@@ -1,10 +1,6 @@
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-html {
-  background-color: #1f2430;
-}
+html { background-color: #1f2430; }
 
 body {
   margin: 15px auto;
@@ -49,9 +45,7 @@ h1 {
   text-transform: uppercase;
 }
 
-nav {
-  margin-top: 15px;
-}
+nav { margin-top: 15px; }
 
 nav li {
   padding-bottom: 5px;
@@ -69,9 +63,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-nav a:active {
-  color: rgba(195,195,195,.3);
-}
+nav a:active { color: rgba(195,195,195,.3); }
 
 main {
   margin: 0 auto;
@@ -184,6 +176,4 @@ a:hover.footer-github  {
   text-decoration: underline;
 }
 
-a:hover.footer-linkrss {
-  opacity: .5;
-}
+a:hover.footer-linkrss { opacity: .5; }
